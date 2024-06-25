@@ -97,7 +97,7 @@ function update() {
     if (frames % 100 === 0) {
         obstacles.push({
             x: canvas.width,
-            y: canvas.height / 2, // Altura inicial centralizada verticalmente
+            y: 50, // Altura inicial centralizada verticalmente
             width: 100,
             height: 50,
         });
