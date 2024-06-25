@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 
 let mamaco = {
     x: 50,
-    y: canvas.height / 2, // Altura inicial centralizada verticalmente
+    y: 50, // Altura inicial centralizada verticalmente
     width: 50,
     height: 50,
     yVelocity: 0,
@@ -48,7 +48,7 @@ document.addEventListener('keydown', (event) => {
 function restartGame() {
     mamaco = {
         x: 50,
-        y: canvas.height / 2, // Altura inicial centralizada verticalmente
+        y: 50, // Altura inicial centralizada verticalmente
         width: 50,
         height: 50,
         yVelocity: 0,
